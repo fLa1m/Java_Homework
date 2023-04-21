@@ -9,7 +9,7 @@ package Homework1;
 public class task005 {
     public static void main(String[] args) {
 
-        String valString = "2? - ?5 = 20";
+        String valString = "2? + ?5 = 69";
 
         String separator = MathMethod(valString);
 
