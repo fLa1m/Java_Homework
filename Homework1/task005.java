@@ -9,7 +9,7 @@ package Homework1;
 public class task005 {
     public static void main(String[] args) {
 
-        String valString = "2? + ?5 = 69";
+        String valString = "2? - ?5 = 20";
 
         String separator = MathMethod(valString);
 
@@ -122,7 +122,7 @@ public class task005 {
                     }
 
                     if (CheckEquation(numArray, op)) {
-                        res = String.format("%d + %d = %d", numArray[0], numArray[1], numArray[2]);
+                        res = String.format("%d %s %d = %d", numArray[0], op, numArray[1], numArray[2]);
                     }
                 }
             }
