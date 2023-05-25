@@ -40,24 +40,4 @@ public class Notebook {
         return color;
     }
 
-    public void setCpu(String cpu) {
-        this.cpu = cpu;
-    }
-
-    public void setRam(Integer ram) {
-        this.ram = ram;
-    }
-
-    public void setHdd(Integer hdd) {
-        this.hdd = hdd;
-    }
-
-    public void setOs(String os) {
-        this.os = os;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
 }
